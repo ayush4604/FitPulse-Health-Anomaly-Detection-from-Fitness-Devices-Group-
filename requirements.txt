@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+pandas
+numpy
+scikit-learn
+prophet
+tsfresh
+requests
+pyngrok
+langchain
+python-dotenv
+langchain_groq
+langchain_community
