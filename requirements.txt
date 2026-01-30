@@ -12,3 +12,4 @@ langchain
 python-dotenv
 langchain_groq
 langchain_community
+reportlab
