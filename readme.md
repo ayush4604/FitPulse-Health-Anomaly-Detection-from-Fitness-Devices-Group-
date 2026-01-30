@@ -34,18 +34,22 @@ It combines **time-series analytics, machine learning, and LLM-based natural lan
 ---
 
 ## 🗂️ Project Structure
-├── data/
-│ └── health_fitness_tracking_365days.csv
+fitpulse/
 │
-├── screenshots/
-│ └── (Screenshots of the web application UI)
+├── data/
+│   └── health_fitness_tracking_365days.csv
 │
 ├── final_backend.py
+│
 ├── final_frontend.py
-├── requirements.txt
-├── .env # Not included in GitHub (required locally)
+│
+├── screenshots/
+│   └── (Application screenshots)
+│
+├── .env                         # Environment variables (not in GitHub; to be created locally)
+├── requirements.txt             
 ├── README.md
-└── LICENSE # MIT License
+└── LICENSE
 
 
 ---
