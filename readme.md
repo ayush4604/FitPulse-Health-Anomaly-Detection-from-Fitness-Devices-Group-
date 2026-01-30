@@ -34,6 +34,7 @@ It combines **time-series analytics, machine learning, and LLM-based natural lan
 ---
 
 ## 🗂️ Project Structure
+```bash
 fitpulse/
 │
 ├── data/
@@ -46,11 +47,11 @@ fitpulse/
 ├── screenshots/
 │   └── (Application screenshots)
 │
-├── .env                         # Environment variables (not in GitHub; to be created locally)
+├── .env    # Environment variables (not in GitHub; to be created locally)
 ├── requirements.txt             
 ├── README.md
 └── LICENSE
-
+```
 
 ---
 
@@ -72,7 +73,7 @@ User → Streamlit Frontend → FastAPI Backend → ML Models (Prophet, DBSCAN, 
   - `steps`
   - `sleep`
 
-The backend automatically standardizes column names during preprocessing.
+The backend automatically standardises column names during preprocessing.
 
 ---
 
@@ -110,20 +111,21 @@ The backend automatically standardizes column names during preprocessing.
 pip install -r requirements.txt
 ```
 
-Create a .env file locally:
+### 2️⃣ Create a .env file locally:
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
 ```
+---
 
-##▶️ Running the Application
+## ▶️ Running the Application
 
-###1️⃣ Start Backend (FastAPI)
+### 1️⃣ Start Backend (FastAPI)
 ```bash
 uvicorn final_backend:app --reload
 ```
 Backend runs at: http://127.0.0.1:8000
 
-###2️⃣ Start Frontend (Streamlit)
+### 2️⃣ Start Frontend (Streamlit)
 ```bash
 streamlit run final_frontend.py
 ```
@@ -131,40 +133,39 @@ Frontend runs at: http://localhost:8501
 
 ---
 
-##🧪 How to Use
+## 🧪 How to Use
 
 1.  Upload the fitness CSV file
 2. Click Run Analysis Pipeline
 3. Explore:
-  - Data overview
-  - Forecasting & anomalies
-  - User clustering
-  - Personalized health insights
+    - Data overview
+    - Forecasting & anomalies
+    - User clustering
+    - Personalized health insights
 4. Ask questions using the AI Fitness Assistant
 5. Download AI-generated PDF fitness reports
 
 ---
 
-##🧠 AI Safety & Constraints
-
+## 🧠 AI Safety & Constraints
 The AI assistant:
 - Uses only provided analytics
 - Does not perform medical diagnosis
 - Provides non-medical fitness insights
 - Clearly states uncertainty when data is limited
 
-📸 Screenshots
+---
 
+## 📸 Screenshots
 Screenshots of the dashboard, forecasting charts, clustering plots, and AI insights are present in the screenshots folder.
 
-📄 License
+---
 
+## 📄 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this project with attribution.
 
-👨‍💻 Authors
-Pranavakumar Murali, Ayush Kumar, Nagararaj, Neha Joshi, Hima Priya
+---
 
-FitPulse
-An end-to-end AI + ML fitness analytics system built using
-FastAPI, Streamlit, Machine Learning, and LLMs
+## 👨‍💻 Authors
+Pranavakumar Murali, Ayush Kumar, Nagararaj, Neha Joshi, Hima Priya
